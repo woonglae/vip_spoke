@@ -21,7 +21,6 @@ fs.writeFileSync('file.gltf', JSON.stringify(gltfFile));
 
 let rawfile = fs.readFileSync('./file.gltf');
 let changedFile = JSON.parse(rawfile);
-// console.log(changedFile); 
 
 let changedSRC = changedFile["nodes"][501]["extensions"]["MOZ_hubs_components"]["video"]["src"];
 console.log(changedSRC);
