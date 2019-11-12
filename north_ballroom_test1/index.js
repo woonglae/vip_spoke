@@ -49,9 +49,9 @@ if (gltfFile) {
 const outputGltfName = "modified.gltf";
 const outputGlbName = "modified.gltb";
 
-// fs.writeFileSync(outputGltfName, JSON.stringify(gltfFile));
+fs.writeFileSync(outputGltfName, JSON.stringify(gltfFile));
 
-gltf_import_export.ConvertToGLB(gltfFile, extractedGltfFilename, outputGlbName);
+gltf_import_export.ConvertGltfToGLB(outputGltfName, outputGlbName);
 
 
 
