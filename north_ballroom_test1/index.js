@@ -47,7 +47,7 @@ if (gltfFile) {
 }
 
 const outputGltfName = "modified.gltf";
-const outputGlbName = "modified.gltb";
+const outputGlbName = "modified.glb";
 
 fs.writeFileSync(outputGltfName, JSON.stringify(gltfFile));
 
