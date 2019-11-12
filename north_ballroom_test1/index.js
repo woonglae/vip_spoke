@@ -15,16 +15,12 @@ if (!jsonFile["url"]) {
     
 }
 
-// read GLTF file 
+// read GLB file 
 var rawGLTF = fs.readFileSync('./North Ballroom.gltf');
 var gltfFile = JSON.parse(rawGLTF);
 if (!gltfFile) {
     console.log("Cannot read gltf file");
 }
-
-// a variable for url object
-var modifiedURL;
-
 
 
 if (gltfFile) {
