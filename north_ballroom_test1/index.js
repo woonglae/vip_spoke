@@ -1,3 +1,4 @@
+import {ConvertGLBtoGltf, ConvertGltfToGLB, ConvertToGLB} from 'gltf-import-export';
 const fs = require('fs');
 
 // read JSON file which have url we want to change

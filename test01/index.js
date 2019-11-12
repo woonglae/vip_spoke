@@ -1,4 +1,3 @@
-import {ConvertGLBtoGltf, ConvertGltfToGLB, ConvertToGLB} from 'gltf-import-export';
 const fs = require('fs');
 
 let rawdata = fs.readFileSync('./simple.json');
