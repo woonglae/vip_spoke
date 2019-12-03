@@ -1,7 +1,6 @@
 // node 12.x.x version doesn't support import 
 // import { ConvertGLBtoGltf, ConvertGltfToGLB, ConvertToGLB} from 'gltf-import-export';
 const gltf_import_export = require('gltf-import-export');
-
 const fs = require('fs');
 
 // read JSON file which have url we want to change
@@ -28,7 +27,6 @@ var gltfFile = JSON.parse(rawGLTF);
 if (!gltfFile) {
     console.log("Cannot read gltf file");
 }
-
 
 if (gltfFile) {
     var nodes = gltfFile["nodes"];
